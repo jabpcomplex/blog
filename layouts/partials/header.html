@@ -2,10 +2,10 @@
 			<div class="nav-container">
 				<a href="{{ "/" | relURL }}">
 					{{ if .IsPage }}
-						<img src="/images/graph_euler.png" alt="">
+						<img src="{{.Site.BaseURL}}images/grafoWorld.jpg" alt="" width="1200" height="400" >
 						<h2 class="nav-title">{{ .Site.Title }}</h2>
 					{{ else }}
-					<img src="/images/grafo_free_scale.png" alt="" width="1200" height="300" style="max-width:100%;width:auto;height:auto;">
+					<img src="{{.Site.BaseURL}}images/grafo.webp" alt="" width="1200" height="400">
 						<h1 class="nav-title">{{ .Site.Title }}</h1>
 					{{ end }}
 				</a>
