@@ -3,10 +3,7 @@ languageCode = 'es'
 title = 'Ciencia y Sociedad'
 theme = "tale"
 
-[Author]
-    name = "Julio Alberto"
-[Params]
-css = ["custom.css"]
+[Author]name = "Julio Alberto"
 
 [menu]
   [[menu.main]]
