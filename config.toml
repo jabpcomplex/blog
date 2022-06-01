@@ -1,5 +1,5 @@
-baseURL = "https://jabpcomplex.github.io/"
-languageCode = 'es'
+baseURL = "https://jabpcomplex.github.io/blog/"
+languageCode = ''
 title = 'Ciencia y Sociedad'
 theme = "tale"
 
@@ -11,12 +11,12 @@ theme = "tale"
      identifier = "contacto"
      name = "Contacto"
      title = "Contacto"
-     url = "/Contacto/"
+     url = "https://jabpcomplex.github.io/contacto/"
      weight = 0
   [[menu.main]]
      identifier = "posts"
      name = "Posts"
      title = "Posts"
-     url = "/posts/"
+     url = "https://jabpcomplex.github.io/posts/"
      weight = 0
 
