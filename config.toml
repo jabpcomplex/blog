@@ -1,4 +1,4 @@
-baseURL = "https://jabpcomplex.github.io/blog/"
+baseURL = "https://jabpcomplex.github.io/"
 languageCode = ''
 title = 'Ciencia y Sociedad'
 theme = "tale"
