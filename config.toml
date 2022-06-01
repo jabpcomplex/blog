@@ -1,9 +1,10 @@
-baseURL = "https://jabpcomplex.github.io/mi-sitio/"
+baseURL = "https://example.org"
 languageCode = 'es'
 title = 'Ciencia y Sociedad'
 theme = "tale"
 
-[Author]name = "Julio Alberto"
+[Author]
+   name = "Julio Alberto"
 
 [menu]
   [[menu.main]]
