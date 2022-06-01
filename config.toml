@@ -1,4 +1,4 @@
-baseURL = "https://jabpcomplex.github.io/blog/"
+baseURL = "https://jabpcomplex.github.io/"
 languageCode = 'es'
 title = 'Ciencia y Sociedad'
 theme = "tale"
@@ -6,11 +6,8 @@ theme = "tale"
 [Author]
    name = "Julio Alberto"
 
-[Params]
-css = ["custom.css", "custom2.css"]
-
 [menu]
-  [[menu.main]]
+   [[menu.main]]
      identifier = "contacto"
      name = "Contacto"
      title = "Contacto"
@@ -22,3 +19,4 @@ css = ["custom.css", "custom2.css"]
      title = "Posts"
      url = "/posts/"
      weight = 0
+
