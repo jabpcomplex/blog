@@ -1,27 +1,21 @@
-baseURL = "https://jabpcomplex.github.io/"
+[Author]
+   name = 'Julio Alberto'
+
+baseURL = 'https://jabpcomplex.github.io/blog'
 languageCode = ''
 title = 'Ciencia y Sociedad'
-theme = "tale"
-googleAnalytics = "UA-133700000-0"
-
-[Author]
-   name = "Julio Alberto"
-
-[Params]
-css = ["custom.css"]
-
-disqusShortname = "disqus-example"
+theme = 'tale'
 
 [menu]
-   [[menu.main]]
-     identifier = "contacto"
-     name = "Contacto"
-     title = "Contacto"
-     url = "/Contacto/"
+  [[menu.main]]
+     identifier = 'contacto'
+     name = 'Contacto'
+     title = 'Contacto'
+     url = '/Contacto/'
      weight = 0
   [[menu.main]]
-     identifier = "posts"
-     name = "Posts"
-     title = "Posts"
-     url = "/posts/"
+     identifier = 'posts'
+     name = 'Posts'
+     title = 'Posts'
+     url = '/posts/'
      weight = 0 
