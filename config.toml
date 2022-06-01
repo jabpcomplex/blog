@@ -6,6 +6,9 @@ theme = "tale"
 [Author]
    name = "Julio Alberto"
 
+[Params]
+css = ["custom.css", "custom2.css"]
+
 [menu]
   [[menu.main]]
      identifier = "contacto"
