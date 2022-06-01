@@ -7,6 +7,11 @@ googleAnalytics = "UA-133700000-0"
 [Author]
    name = "Julio Alberto"
 
+[Params]
+css = ["custom.css"]
+
+disqusShortname = "disqus-example"
+
 [menu]
    [[menu.main]]
      identifier = "contacto"
@@ -19,9 +24,4 @@ googleAnalytics = "UA-133700000-0"
      name = "Posts"
      title = "Posts"
      url = "/posts/"
-     weight = 0
-
-[Params]
-css = ["custom.css", "custom2.css"]
-
-disqusShortname = "disqus-example"
+     weight = 0 
