@@ -2,9 +2,11 @@
 			<div class="nav-container">
 				<a href="{{ "/" | relURL }}">
 					{{ if .IsPage }}
-						<h2 class="nav-title">hola{{ .Site.Title }}</h2>
+						<img src="/images/graph_euler.png" alt="">
+						<h2 class="nav-title">{{ .Site.Title }}</h2>
 					{{ else }}
-						<h1 class="nav-title">mundo{{ .Site.Title }}</h1>
+					<img src="/images/grafo_free_scale.png" alt="" width="1200" height="300" style="max-width:100%;width:auto;height:auto;">
+						<h1 class="nav-title">{{ .Site.Title }}</h1>
 					{{ end }}
 				</a>
 				{{ partial "header-menu.html" . }}
