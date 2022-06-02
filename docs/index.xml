@@ -5,16 +5,7 @@
     <link>https://jabpcomplex.github.io/blog/</link>
     <description>Recent content on Ciencia y Sociedad</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 28 May 2022 00:32:23 -0500</lastBuildDate><atom:link href="https://jabpcomplex.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Segundo Post</title>
-      <link>https://jabpcomplex.github.io/blog/posts/segundo-post/</link>
-      <pubDate>Sat, 28 May 2022 00:32:23 -0500</pubDate>
-      
-      <guid>https://jabpcomplex.github.io/blog/posts/segundo-post/</guid>
-      <description>Este es el segundo post&amp;hellip;</description>
-    </item>
-    
+    <lastBuildDate>Mon, 01 Feb 2021 00:32:07 -0500</lastBuildDate><atom:link href="https://jabpcomplex.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Puede la comida de un hombre en Wuhan (China) causar una pandemia global?</title>
       <link>https://jabpcomplex.github.io/blog/posts/primer-post/</link>
@@ -31,9 +22,9 @@ Para los lectores familiarizados con la teoría de los sistemas complejos, el t�
       <pubDate>Fri, 01 Jan 2021 00:18:41 -0500</pubDate>
       
       <guid>https://jabpcomplex.github.io/blog/contacto/</guid>
-      <description>Te encuentras en mi blog personal creado con hugo.
-Este blog busca difundir temas de interés entre la ciencia y la sociedad que se beneficia de ella.
-Ciencia Sociedad Cultura Programación </description>
+      <description>Bienvenido. Te encuentras en mi Blog personal.
+El propósito de este Blog es presentar la influencia recíproca entre el desarrollo de la ciencia y los otros aspectos de la evolución social del hombre (cultura, arte, deporte, etc).
+Cuelquier comentario acerca de lo que se expresa en este blog será bienvenido al correo julioacustico10@gmail.com</description>
     </item>
     
   </channel>

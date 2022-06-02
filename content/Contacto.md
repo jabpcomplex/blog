@@ -4,11 +4,8 @@ date: 2021-01-01T00:18:41-05:00
 draft: false # true es borrador
 ---
 
-Te encuentras en mi blog personal creado con hugo.
+Bienvenido. Te encuentras en mi Blog personal.
 
-Este blog busca difundir temas de interés entre la ciencia y la sociedad que se beneficia de ella.
+El propósito de este Blog es presentar la influencia recíproca entre el desarrollo de la ciencia y los otros aspectos de la evolución social del hombre (cultura, arte, deporte, etc).
 
-- Ciencia
-- Sociedad
-- Cultura
-- Programación
+Cuelquier comentario acerca de lo que se expresa en este blog será bienvenido al correo julioacustico10@gmail.com
