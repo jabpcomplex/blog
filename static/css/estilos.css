@@ -19,12 +19,12 @@ body {
 .indexhero{
     margin-top: 0rem; /*Separación de head a redes sociales*/
     /*background-color: rgb(255, 0, 0);*/
-    color: rgb(130, 130, 130);
+    color: rgb(255, 255, 255); /*Color de fondo redes sociales*/
     text-align:center;
     padding: 0rem 1rem;
 }
 .indexhero h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);  /*Color de fondo redes sociales*/
     font-size: 3rem;
     margin: 1rem;
 }
