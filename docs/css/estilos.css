@@ -1,11 +1,12 @@
 body {
     background-color: #ffffff;
 }
-/* Para modificar la imagen del encabezado
+/* Para modificar la imagen del encabezado*/
 .nav-container img{
-    height: 60px;
+    width:"1200";
+    height:"400" ;
 }
-*/
+
 
 .post-title, .catalogue-title{
     color: #000;
