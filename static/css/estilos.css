@@ -17,7 +17,7 @@ body {
     color: rgb(120, 120, 120);
 }
 .indexhero{
-    margin-top: 0rem; /*Separación de head a redes sociales*/
+    margin-top: 2rem; /*Separación de head a redes sociales*/
     /*background-color: rgb(255, 0, 0);*/
     color: rgb(255, 255, 255); /*Color de fondo redes sociales*/
     text-align:center;
@@ -26,17 +26,17 @@ body {
 .indexhero h1 {
     color: rgb(255, 255, 255);  /*Color de fondo redes sociales*/
     font-size: 3rem;
-    margin: 1rem;
+    margin: 2rem;
 }
 .indexhero p {
     font-size: 1.5rem;  /* tamaño letra*/
-    margin-bottom: 0rem;  
+    margin-bottom: 0rem; 
     color: rgb(80, 80, 80); /*Color cercano a title*/
 }
 
 .indexhero a {
     font-size: 1rem;  /* tamaño letra*/
-    margin-bottom: 0.5rem;  
+    margin-bottom: 5rem;  
     text-align:center;
     color: rgb(120, 120, 120);
 }
