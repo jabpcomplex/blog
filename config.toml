@@ -23,7 +23,7 @@ googleAnalytics = "UA-133700000-0"
   [[menu.main]]
      identifier = "linux"
      name = "Linux"
-     title = "Linux tips"
+     title = "Linux"
      url = "/Linux/"
      weight = 0 
      
