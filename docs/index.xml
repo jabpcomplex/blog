@@ -5,7 +5,17 @@
     <link>https://jabpcomplex.github.io/blog/</link>
     <description>Recent content on Ciencia y Sociedad</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Feb 2021 00:32:07 -0500</lastBuildDate><atom:link href="https://jabpcomplex.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 00:32:07 -0500</lastBuildDate><atom:link href="https://jabpcomplex.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personaliza Linux con Conky</title>
+      <link>https://jabpcomplex.github.io/blog/linux/conky-config/</link>
+      <pubDate>Sun, 12 Jun 2022 00:32:07 -0500</pubDate>
+      
+      <guid>https://jabpcomplex.github.io/blog/linux/conky-config/</guid>
+      <description>Conky es monitor del sistema disponible en GNU/Linux. Conky es un software que muestra información relevante sobre nuestra computadora, como por ejemplo la temperatura de nuestros procesadores, la intensidad de la señal Wi-Fi, el uso de la RAM, estado del CPU, memoria disponible, bandejas de correo, y muchas otras características más.
+Contrario a los monitores del sistema que usan widgets que consumen mucha memoria RAM, Conky consume relativamente menos recursos del sistema por la naturaleza de su creación, basado en el sistema de ventanas X.</description>
+    </item>
+    
     <item>
       <title>¿Puede la comida de un hombre en Wuhan (China) causar una pandemia global?</title>
       <link>https://jabpcomplex.github.io/blog/posts/primer-post/</link>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-133700000-0', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Personaliza Linux con Conky &middot; Ciencia y Sociedad</title>
+
+		
+		<link rel="stylesheet" href="/blog/css/style.css">
+		<link rel="stylesheet" href="/blog/css/fonts.css">
+		<link rel="stylesheet" href="/blog/css/estilos.css">
+		
+		<link rel="icon" href="/blog/favicon.ico"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Ciencia y Sociedad" />
+
+		<script src="/blog/js/darkmode.js"></script>
+	</head>
+
+    <body>
+        <html>
+	<header	class="header">
+		
+		
+		<nav class="nav">
+			<div class="nav-container">
+				<a href="/blog/">
+					
+						<img src="https://jabpcomplex.github.io/blog/images/grafoWorld.jpg" alt="" >
+						<h2 class="nav-title">Ciencia y Sociedad</h2>
+					
+					</a>
+						
+						
+					<ul>
+    
+    
+        <li>
+            <a href="/blog/contacto/">
+                
+                <span>Contacto</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/blog/linux/">
+                
+                <span>Linux</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/blog/posts/">
+                
+                <span>Posts</span>
+                
+            </a>
+        </li>
+    
+</ul>
+						
+			</div>
+		</nav>
+	</header>
+
+</html>
+        <div id="darkModeToggle" onclick="toggleDarkMode()">
+  &#9680; 
+</div>
+
+        
+
+<main>
+	
+
+
+        <div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Julio Alberto
+        <br>
+        <span>on&nbsp;</span><time datetime="2022-06-12 00:32:07 -0500 CDT">June 12, 2022</time>
+</div>
+
+		<h1 class="post-title">Personaliza Linux con Conky</h1>
+<div class="post-line"></div>
+
+		
+
+		<!-- raw HTML omitted -->
+<p>Conky es monitor del sistema disponible en GNU/Linux. Conky es un software que muestra información relevante sobre nuestra computadora, como por ejemplo la temperatura de nuestros procesadores, la intensidad de la señal Wi-Fi, el uso de la RAM, estado del CPU, memoria disponible,  bandejas de correo, y muchas otras características más.</p>
+<p> </p>
+<p><img src="https://i0.wp.com/nksistemas.com/wp-content/uploads/2015/11/conky1.jpg?w=700&amp;ssl=1" alt="Imagen no disponible o eliminada"></p>
+<p> </p>
+<p>Contrario a los monitores del sistema que usan widgets que consumen mucha memoria RAM, Conky consume relativamente menos recursos del sistema por la naturaleza de su creación, basado en el <a href="https://es.wikipedia.org/wiki/Sistema_de_ventanas_X">sistema de ventanas X</a>.</p>
+<p>Conky ha sido nombrado como &ldquo;uno de los mejores programas mejor mantenidos, y definitivamente uno de los más útiles programas en el mundo del código abierto&rdquo; por Linux Magazine.</p>
+<h1 id="instalación">Instalación</h1>
+<p>Para instalar Conky, necesita abrir una terminal y escribir el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    sudo apt-get install conky-all 
+</span></span><span style="display:flex;"><span>      
+</span></span></code></pre></div><p>Para iniciar conky solo escribiremos la palabra <code>conky</code> en la consola y se abrirá algo como esto</p>
+<p> </p>
+<p><img src="https://www.fuukemn.biz/photo/lubuntu_37.png" alt="Imagen no disponible o eliminada"></p>
+<p> </p>
+<p>Como habrán podido notar cuando lanzamos conky se ve bastante rústico, para personalizarlo debemos editar el archivo <strong>.conkyrc</strong> que se encuentra en la ruta <em>/home/usuario</em>.</p>
+<p>Para disfrutar de todos los beneficios de conky es necesario instalar los paquetes</p>
+<ul>
+<li>
+<p><strong>curl</strong> que nos facilita la transferencia de ficheros utilizando los protocolos HTTP,HTTPS y FTP, entre otros.</p>
+</li>
+<li>
+<p><strong>lm-sensors</strong> da información sobre la temperatura y el estado de la CPU, tanto ventiladores o el voltaje.</p>
+</li>
+<li>
+<p><strong>hddtemp</strong> nos mostrará la temperatura de los discos.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    sudo apt-get install curl lm-sensors hddtemp
+</span></span><span style="display:flex;"><span>      
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    CONTINUARÁ
+</span></span><span style="display:flex;"><span>      
+</span></span></code></pre></div>
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/blog/posts/primer-post/" class="left arrow">&#8592;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        <footer>
+    
+    <span>
+    <div class="indexhero">
+      <p>Redes sociales</p>
+      <br> 
+        <div style="text-align:center">
+          <a href = "https:\\www.github.com\jabpcomplex"  style="display:inline-block" target="_blank" ><img src="https://jabpcomplex.github.io/blog/images/icone-github-grise.png" width="50" height="50" \t ></a>&nbsp;&nbsp;
+          <a href = "https:\\www.youtube.com\channel\UCtV7m_vjP1Vk6jY42OK_qcw\"  style="display:inline-block" target="_blank" ><img src="https://jabpcomplex.github.io/blog/images/youtube_icon.webp" width="45" height="45" \t ></a>&nbsp;&nbsp;
+          <a href = "https:\\www.instagram.com\" style="display:inline-block" target="_blank" ><img src="https://jabpcomplex.github.io/blog/images/instagram-gris.png" width="45" height="45" \t ></a>&nbsp;&nbsp;
+          <a href = "https:\\www.linkedin.com\in\julio-alberto-bautista-9317b2231\"  style="display:inline-block" target="_blank" ><img src="https://jabpcomplex.github.io/blog/images/linkedin-icon.png" width="48" height="48" \t ></a>&nbsp;&nbsp;
+          
+      </div>    
+    </div>
+    &copy; <time datetime="2022-06-13 18:18:05.966510893 -0500 CDT m=&#43;0.242890569">2022</time> Sitio creado por Julio Alberto. 
+    </span>
+
+</footer>
+
+    </body>
+</html>
