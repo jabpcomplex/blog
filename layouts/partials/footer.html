@@ -6,6 +6,7 @@
     {{ end }}
     <span>
     
+      <!--
     <div class="indexhero">
       <p>Redes sociales</p>
       <br> Salto de línea
@@ -14,9 +15,44 @@
           <a href = "https:\\www.youtube.com\channel\UCtV7m_vjP1Vk6jY42OK_qcw\"  style="display:inline-block" target="_blank" ><img src="{{.Site.BaseURL}}/images/youtube_icon.webp" width="45" height="45" \t ></a>&nbsp;&nbsp;
           <a href = "https:\\www.instagram.com\" style="display:inline-block" target="_blank" ><img src="{{.Site.BaseURL}}/images/instagram-gris.png" width="45" height="45" \t ></a>&nbsp;&nbsp;
           <a href = "https:\\www.linkedin.com\in\julio-alberto-bautista-9317b2231\"  style="display:inline-block" target="_blank" ><img src="{{.Site.BaseURL}}/images/linkedin-icon.png" width="48" height="48" \t ></a>&nbsp;&nbsp;
-    <!--  <a href = "https:\\www.facebook.com\"  style="display:inline-block" target="_blank" ><img src="{{.Site.BaseURL}}/images/facebook_icon.png" width="48" height="48" \t ></a> -->
+     
       </div>
     </div> 
+  -->
+
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Social media icons animation</title>
+      <!-- Remix icons -->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+      <!-- Link to your stylesheet -->
+      <link rel="stylesheet" href="./styles.css">
+    </head>
+    
+    <body>
+      <div class="icons">
+         <a href="https:\\www.instagram.com\scientia_complexus" class="icon icon--instagram">
+          <i class="ri-instagram-line"></i>
+        </a>
+        <a href="#" class="icon icon--youtube">
+          <i class="ri-youtube-line"></i>
+        </a>
+        <a href="#" class="icon icon--twitter">
+          <i class="ri-twitter-line"></i>
+        </a>
+        <a href="#" class="icon icon--linkedin">
+          <i class="ri-linkedin-line"></i>
+        </a>
+        <a href="https:\\www.github.com\jabpcomplex" class="icon icon--github">
+          <i class="ri-github-line"></i>
+        </a>
+      </div>
+    </body>
+    
+    <br>  <br> 
+
     &copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time> Sitio creado por {{ .Site.Author.name }}. <!-- {{ i18n "generator" | safeHTML }}-->
     </span>
 

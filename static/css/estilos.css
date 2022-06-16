@@ -43,15 +43,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-/*
-
 .icons{
     display: flex;
     column-gap: 25px;
@@ -65,13 +56,15 @@ body {
     justify-content: center;
     text-decoration: none;
     font-size: 26px;
-    color: #fff;
+    color: rgb(120, 120, 120);
     border-radius: 50%;
-    outline:2px solid  #fff;
+    outline:2px solid  rgb(120, 120, 120);
     transition-property:
     outline-offset, outline-color,
     background-color;
     transition-duration: .25s;
+    margin-left: 4rem; /*Separación de head a redes sociales*/     
+
 }
 
 .icon:hover{
@@ -88,6 +81,15 @@ body {
     #fdf497 0%, #fdf497 5%,
     #fd5949 45%, #d6249f 60%,
     #285AEB 90%);
+    outline-color: #a02d76;
+}
+
+.icon--youtube:hover{
+    background-image:
+    radial-gradient(circle at 30% 107%,
+    #b44a48 0%, #78392e 5%,
+    #fd3649 45%, #fd3644 60%,
+    #fd4967 90%);
     outline-color: #a02d76;
 }
 
@@ -113,4 +115,3 @@ body {
     40%{transform: rotate(-15deg);}
 }
 
-*/
