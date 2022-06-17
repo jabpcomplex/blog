@@ -53,17 +53,16 @@ body {
     height: 60px;
     display: inline-flex;
     align-items: center; /*alinea los iconos al centro*/
-    justify-content: center; /*los iconos al centro*/
+    justify-content: space-around; /*los iconos al centro*/
     text-decoration: none;
     font-size: 26px;
     color: rgb(80, 80, 80);
     border-radius: 50%;
-    outline:2px solid  rgb(80, 80, 80);
+    outline:3px solid  rgb(80, 80, 80);
     transition-property:
     outline-offset, outline-color,
     background-color;
     transition-duration: .25s;
-    margin: 2rem;
 }
 
 .icon:hover{
