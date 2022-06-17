@@ -97,7 +97,11 @@ body {
 }
 
 .icon--linkedin:hover{
-    background-color: #0077b5;
+    background-image:
+    radial-gradient(circle at 30% 107%,
+    #87c1e0  0%, #2a6484 5%,
+    #3d87ae 45%, #0077b5 60%,
+    #3779ed  90%);
     outline-color: #0077b5
 }
 

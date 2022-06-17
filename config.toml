@@ -21,7 +21,7 @@ googleAnalytics = "UA-133700000-0"
      url = "/posts/"
      weight = 0 
   [[menu.main]]
-     identifier = "linux"
+     identifier = "Linux"
      name = "Linux"
      title = "Linux"
      url = "/Linux/"
