@@ -44,7 +44,7 @@ body {
 
 
 .icons{
-    display: flex;
+    display: inline-flex;
     column-gap: 25px;
 }
 
