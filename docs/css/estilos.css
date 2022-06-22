@@ -68,7 +68,6 @@ Estilo de los iconos
     transition-property:
     outline-offset, outline-color,
     background-color;
-    margin: 2rem;
     transition-duration: .25s;
 }
 

@@ -4,16 +4,17 @@ date: 2022-06-12T00:32:07-05:00
 draft: false #true borrador
 ---
 
-Si estas harto de qué se trabe o ralentice tu computadora con windows y no te alcanza para comprar una imac o simplemente quieres dejar atrás windows. Este post tiene como objetivo ayudarte a cambiar a linux. 
+Si estas harto de qué se trabe y ralentice tu computadora o no te alcanza para comprar una máquina más potente o simplemente quieres dejar atrás windows. Entonces este post te servirá. Mi objetivo es ayudarte a cambiar a linux y que tu transicion entre sistemas operativos sea más rápida.
 
-Linux es un sistema operativo de código abierto, aunque nadie lo utiliza como tal, sino que recurren a las distribuciones (distros) ya que, con ellas, se vuelve mucho sencillo de utilizar y cada distro (ubuntu, kubuntu, debian, azure, etc) tiene su toque personal.
+El software de código abierto opera con los principios subyacentes de la producción entre pares y la colaboración masiva, creando un proceso de desarrollo de software más sustentable para los usuarios finales. El software de código cerrado es un tipo de software patentado (privado) que no se distribuye de manera gratuita.
 
-Vamos a comenzar por aprender que significan algunos términos que se utilizan en el mundo de Linux. Desde mi experiencia, teniendo claro que significan estos términos vamos a comprender mejor nuestra máquina (Hardware) y la distribución que hemos instalado (software).
+Linux es un sistema operativo de código abierto, aunque nadie lo utiliza como tal, sino que recurren a las distribuciones (distros) pues con ellas, se vuelve mucho más sencillo de utilizar y cada distro (ubuntu, kubuntu, debian, fedora, etc) tiene su toque personal.
+
+Lo primero que necesitas saber es que significan algunos términos que se utilizan en el mundo de Linux. Desde mi experiencia, teniendo claro que significan estos términos vas a comprender mejor tu máquina (Hardware) y la distribución que has instalado (software).
 
 ## Términos importantes que debemos conocer
 
-
-Se conoce como **sistema informático** al conjunto de ordenadores personales (uno o varios), junto con la persona que lo maneja, los programas que contiene y los periféricos que los envuelven (impresora, teclado, altavoces, mouse, cables, etc) 
+Se conoce como **sistema informático** al conjunto de ordenadores personales (uno o varios), los programas que contiene y las herramientas que los envuelven (impresora, teclado, altavoces, mouse, cables, etc) junto con la persona que lo maneja (usuario).
 
 El **hardware**,​ se refiere a las partes físicas, tangibles, de un sistema informático, sus componentes eléctricos, electrónicos, electromecánicos
 
@@ -35,13 +36,13 @@ https://www.softzone.es/programas/linux/kernel-nucleo-linux/
 
 En el enlace anterior puedes conocer
 
-- Que versiones existen
+- Qué versiones existen
 
-- Que versión de linux elegir para tu máquina 
+- Qué versión de linux elegir para tu máquina 
 
 - Cómo saber la versión de nuestro Kernel
 
-- Y como actualizar el Kernel.
+- Y cómo actualizar el Kernel.
 
 
 
