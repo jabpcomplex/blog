@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 12 Jun 2022 00:32:07 -0500</lastBuildDate><atom:link href="https://jabpcomplex.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Personaliza Linux con Conky</title>
-      <link>https://jabpcomplex.github.io/blog/linux/conky-config/</link>
+      <title>Primeros pasos para cambiarte a Linux</title>
+      <link>https://jabpcomplex.github.io/blog/linux/primeros_pasos/</link>
       <pubDate>Sun, 12 Jun 2022 00:32:07 -0500</pubDate>
       
-      <guid>https://jabpcomplex.github.io/blog/linux/conky-config/</guid>
-      <description>Conky es monitor del sistema disponible en GNU/Linux. Conky es un software que muestra información relevante sobre nuestra computadora, como por ejemplo la temperatura de nuestros procesadores, la intensidad de la señal Wi-Fi, el uso de la RAM, estado del CPU, memoria disponible, bandejas de correo, y muchas otras características más.
-Contrario a los monitores del sistema que usan widgets que consumen mucha memoria RAM, Conky consume relativamente menos recursos del sistema por la naturaleza de su creación, basado en el sistema de ventanas X.</description>
+      <guid>https://jabpcomplex.github.io/blog/linux/primeros_pasos/</guid>
+      <description>Si estas harto de qué se trabe o ralentice tu computadora con windows y no te alcanza para comprar una imac o simplemente quieres dejar atrás windows. Este post tiene como objetivo ayudarte a cambiar a linux.
+Linux es un sistema operativo de código abierto, aunque nadie lo utiliza como tal, sino que recurren a las distribuciones (distros) ya que, con ellas, se vuelve mucho sencillo de utilizar y cada distro (ubuntu, kubuntu, debian, azure, etc) tiene su toque personal.</description>
     </item>
     
     <item>

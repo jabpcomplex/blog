@@ -17,11 +17,11 @@ body {
     color: rgb(120, 120, 120);
 }
 .indexhero{
-    margin-top: 2rem; /*Separación de head a redes sociales*/
+    margin-top: 0em; /*Separación de head a redes sociales*/
     /*background-color: rgb(255, 0, 0);*/
     color: rgb(255, 255, 255); /*Color de fondo redes sociales*/
     text-align:center;
-    padding: 0rem 1rem;
+    padding: 0rem 0rem;
 }
 .indexhero h1 {
     color: rgb(255, 255, 255);  /*Color de fondo redes sociales*/
@@ -36,21 +36,27 @@ body {
 
 .indexhero a {
     font-size: 1rem;  /* tamaño letra*/
-    margin-bottom: 5rem;  
+    margin-bottom: 0rem;  
     text-align:center;
     color: rgb(120, 120, 120);
 }
 
-
+/*
+************
+Estilo de los iconos
+************
+*/
 
 .icons{
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     column-gap: 25px;
+
 }
 
 .icon{
     width: 60px;
-    height: 60px;
+    height: 60px; 
     display: inline-flex;
     align-items: center; /*alinea los iconos al centro*/
     justify-content: space-around; /*los iconos al centro*/
@@ -62,6 +68,7 @@ body {
     transition-property:
     outline-offset, outline-color,
     background-color;
+    margin: 2rem;
     transition-duration: .25s;
 }
 
@@ -71,6 +78,7 @@ body {
 
 .icon:hover i{
     animation: shake .25s;
+    
 }
 
 .icon--instagram:hover{
@@ -116,4 +124,8 @@ body {
     30%{transform: rotate(15deg);}
     40%{transform: rotate(-15deg);}
 }
-
+/*
+************
+Estilo de los iconos
+************
+*/
