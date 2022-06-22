@@ -5,7 +5,7 @@ theme = "tale"
 googleAnalytics = "UA-133700000-0"
 
 [Author]
-   name = "Julio Alberto"
+   name = "Julio Alberto Bautista"
 
 [menu]
    [[menu.main]]
