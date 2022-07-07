@@ -116,3 +116,8 @@ Para disfrutar de todos los beneficios de conky es necesario instalar los paquet
     CONTINUARÁ
       
 ```  
+
+# Introduction to Free Software and the Liberation of Cyberspace - Richard Stallman 
+
+
+[Software libre](https://www.youtube.com/watch?v=tXlBh2ZpVwE)
