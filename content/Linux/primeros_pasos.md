@@ -1,14 +1,14 @@
 ---
-title: "Primeros pasos para cambiarte a Linux"
+title: "Primeros pasos para cambiarte a GNU/linux (software libre)"
 date: 2022-06-12T00:32:07-05:00
 draft: false #true borrador
 ---
 
-Si estas harto de qué se trabe y ralentice tu computadora o no te alcanza para comprar una máquina más potente o simplemente quieres dejar atrás windows. Entonces este post te servirá. Mi objetivo es ayudarte a cambiar a linux y que tu transicion entre sistemas operativos sea más rápida.
+Si estas harto de qué se trabe y ralentice tu computadora o no te alcanza para comprar una máquina más potente o simplemente quieres dejar atrás windows. Entonces este post te servirá. Mi objetivo es ayudarte a utilizar y entender  GNU/linux (software libre) y que tu transición entre sistemas operativos sea más rápida.
 
-El software de código abierto opera con los principios subyacentes de la producción entre pares y la colaboración masiva, creando un proceso de desarrollo de software más sustentable para los usuarios finales. El software de código cerrado es un tipo de software patentado (privado) que no se distribuye de manera gratuita.
+El software libre opera con los principios subyacentes de libertad al usuario y solidaridad social (colaboración), creando un proceso de desarrollo de software equitativo para los usuarios finales. El software de código privativo es un tipo de software privatizado que no se distribuye de manera gratuita. El software libre comenzo... 
 
-Linux es un sistema operativo de código abierto, aunque nadie lo utiliza como tal, sino que recurren a las distribuciones (distros) pues con ellas, se vuelve mucho más sencillo de utilizar y cada distro (ubuntu, kubuntu, debian, fedora, etc) tiene su toque personal.
+GNU/Linux es un sistema operativo de software libre, aunque nadie lo utiliza como tal, sino que recurren a las distribuciones (distros) pues con ellas, se vuelve mucho más sencillo de utilizar y cada distro (ubuntu, kubuntu, debian, fedora, etc) tiene su toque personal. Cabe resaltar que no todos las distros se pueden llamar de softaware libre pues las han editado a libertad que algunos de sus componentes son de software privado o no son de código abierto. Lo cual priva de su libertad al usuario.
 
 Lo primero que necesitas saber es que significan algunos términos que se utilizan en el mundo de Linux. Desde mi experiencia, teniendo claro que significan estos términos vas a comprender mejor tu máquina (Hardware) y la distribución que has instalado (software).
 
