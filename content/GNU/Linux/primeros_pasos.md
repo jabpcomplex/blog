@@ -4,13 +4,35 @@ date: 2022-06-12T00:32:07-05:00
 draft: false #true borrador
 ---
 
-Si estas harto de qué se trabe y ralentice tu computadora o no te alcanza para comprar una máquina más potente o simplemente quieres dejar atrás windows. Entonces este post te servirá. Mi objetivo es ayudarte a utilizar y entender  GNU/linux (software libre) y que tu transición entre sistemas operativos sea más rápida.
+Si estas harto de qué se trabe y ralentice tu computadora o no te alcanza para comprar una máquina más potente o simplemente quieres dejar atrás windows. Entonces este post te servirá. Mi objetivo es ayudarte a utilizar y entender  GNU/linux (sistema operativo libre) y que tu transición entre sistemas operativos sea más rápida.
 
-El software libre opera con los principios subyacentes de libertad al usuario y solidaridad social (colaboración), creando un proceso de desarrollo de software equitativo para los usuarios finales. El software de código privativo es un tipo de software privatizado que no se distribuye de manera gratuita. El software libre comenzo... 
+El software libre opera con los principios subyacentes de libertad al usuario y solidaridad social (colaboración), creando un proceso de desarrollo de software equitativo para los usuarios finales.  El software de código privativo es un tipo de software privatizado que atenta contra alguna de **las 4 libertades esenciales del usuario**. El software libre comenzó luego de que las empresas desidieran que nadie que no fuera ellos podría utilizar su sistema operativo que por ese entonces eran unos cuantos. En ese momento algunos programadores que trabajaban en dichas empresas no estaban de acuerdo con esta nueva filosofía de trabajo, este fue el caso de Richard Stallman que en 1984 desidió crear su propio sistema operativo no  (*GNU*) y poder compartirlo con su comunidad bajo cuatro axiomas que todo software libre debe cumplir, las cuales son:
+
+&nbsp;
+
+- **Libertad 0**: La libertad de ejecutar el programa como se desee, con cualquier propósito
+
+&nbsp;
+
+- **Libertad 1**: a libertad de estudiar cómo funciona el programa, y cambiarlo para que haga lo que se desee. El acceso al código fuente es una condición necesaria para ello.
+
+&nbsp;
+
+- **Libertad 2**: La libertad de redistribuir copias para ayudar a otros.
+
+&nbsp;
+
+- **Libertad 3**: La libertad de distribuir copias de sus versiones modificadas a terceros.
+
+
+&nbsp;
+
+ Richard Stallman es un tipo que cree en la solidaridad de la cominidad de programadores y  la libertad del usuario final. Pero la tarea de crear un sistema operativo desde cero es una labor por lo menos muy dificil para una sola persona. De a poco fue trabajando con diferentes colegas hasta que en 1991 lograron reunir la mayoria de elementos para tener un sistema operativo completo. Faltaba una pieza importante: el kernel. Por otro lado en 1992 Linus Torvals libero su kernel llamado: Linux. Y asi fue como surgió el sistema operativo GNU/Linux.
+
 
 GNU/Linux es un sistema operativo de software libre, aunque nadie lo utiliza como tal, sino que recurren a las distribuciones (distros) pues con ellas, se vuelve mucho más sencillo de utilizar y cada distro (ubuntu, kubuntu, debian, fedora, etc) tiene su toque personal. Cabe resaltar que no todos las distros se pueden llamar de softaware libre pues las han editado a libertad que algunos de sus componentes son de software privado o no son de código abierto. Lo cual priva de su libertad al usuario.
 
-Lo primero que necesitas saber es que significan algunos términos que se utilizan en el mundo de Linux. Desde mi experiencia, teniendo claro que significan estos términos vas a comprender mejor tu máquina (Hardware) y la distribución que has instalado (software).
+Lo primero que necesitas saber es que significan algunos términos que se utilizan en el mundo de software libre. Desde mi experiencia, teniendo claro que significan estos términos vas a comprender mejor tu máquina (Hardware) y la distribución que has instalado (software).
 
 ## Términos importantes que debemos conocer
 

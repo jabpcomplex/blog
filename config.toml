@@ -21,10 +21,10 @@ googleAnalytics = "UA-133700000-0"
      url = "/posts/"
      weight = 0 
   [[menu.main]]
-     identifier = "Linux"
-     name = "Linux"
-     title = "Linux"
-     url = "/Linux/"
+     identifier = "GNU/Linux"
+     name = "GNU/Linux"
+     title = "GNU/Linux"
+     url = "/GNU/Linux/"
      weight = 0 
      
 [params]
