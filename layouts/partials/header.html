@@ -1,0 +1,32 @@
+<html>
+	<header	class="header">
+		<!--<img src="{{.Site.BaseURL}}/images/grafoWorld.jpg" alt=""  width= "100%" height="auto">-->
+		
+		<nav class="nav">
+			<div class="nav-container">
+				<a href="{{ "/" | relURL }}">
+					{{ if .IsPage }}
+						<img src="{{.Site.BaseURL}}/images/grafoWorld.jpg" alt="" >
+						<h2 class="nav-title">{{ .Site.Title }}</h2>
+					{{ else }}
+					<img src="{{.Site.BaseURL}}/images/grafo.webp" alt="">
+						<h1 class="nav-title">{{ .Site.Title }}</h1>
+					{{ end }}
+					</a>
+						<!-- 
+							<a href="{{ "/" | relURL }}">		
+							<h2 class="nav-title"> Github</h2>
+						-->
+						
+					{{ partial "header-menu.html" . }}
+						
+			</div>
+		</nav>
+	</header>
+<!-- 
+<body>
+<div class="miFoto">
+	<img src="{{.Site.BaseURL}}/images/foto_jabp.jpeg" width="130px" height="120px" >
+	</div>
+</body>-->
+</html>

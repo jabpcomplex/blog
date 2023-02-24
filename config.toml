@@ -1,0 +1,31 @@
+baseURL = "https://jabpcomplex.github.io/blog"
+languageCode = "es"
+title = 'Ciencia y Sociedad'
+theme = "tale"
+googleAnalytics = "UA-133700000-0"
+
+[Author]
+   name = "Julio Alberto Bautista"
+
+[menu]
+   [[menu.main]]
+     identifier = "contacto"
+     name = "Contacto"
+     title = "Contacto"
+     url = "/Contacto/"
+     weight = 0
+  [[menu.main]]
+     identifier = "posts"
+     name = "Posts"
+     title = "Posts"
+     url = "/posts/"
+     weight = 0
+  [[menu.main]]
+     identifier = "GNU-Linux"
+     name = "GNU-Linux"
+     title = "GNU-Linux"
+     url = "/GNU-Linux/"
+     weight = 0
+
+[params]
+   css = ["css/estilos.css"]
