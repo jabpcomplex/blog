@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GNU-Linuxes on Ciencia y Sociedad</title>
+    <link>https://jabpcomplex.github.io/blog/gnu-linux/</link>
+    <description>Recent content in GNU-Linuxes on Ciencia y Sociedad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 12 Jun 2022 00:32:07 -0500</lastBuildDate><atom:link href="https://jabpcomplex.github.io/blog/gnu-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Por qué deberías usar GNU/Linux?</title>
+      <link>https://jabpcomplex.github.io/blog/gnu-linux/porq_gnulinux/</link>
+      <pubDate>Sun, 12 Jun 2022 00:32:07 -0500</pubDate>
+      
+      <guid>https://jabpcomplex.github.io/blog/gnu-linux/porq_gnulinux/</guid>
+      <description>Después de haber leído el post anterior &amp;ldquo;Primeros pasos para cambiarte a GNU/linux (software libre)&amp;rdquo; espero que haya surgido en ti una chispa de curiosidad e investigues más acerca de lo que significa el software libre y cuales son las diferencias principales entre software libre y software privativo.
+Hace unos días estuve en contacto con un equipo de computo con el sistema operativo macOS BigSur o apple para los cuates(el de la manzanita para los igualados), esto provocó en mí que reafirmará mis ideas sobre por qué deberíamos usar alguna distro de GNU/Linux en lugar de software privativo como Windows o MacOs.</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos para cambiarte a GNU/linux (software libre)</title>
+      <link>https://jabpcomplex.github.io/blog/gnu-linux/primeros_pasos/</link>
+      <pubDate>Tue, 01 Jun 2021 00:32:07 -0500</pubDate>
+      
+      <guid>https://jabpcomplex.github.io/blog/gnu-linux/primeros_pasos/</guid>
+      <description>Si estas harto de qué se trabe y ralentice tu computadora o no te alcanza para comprar una máquina más potente o simplemente quieres dejar atrás windows. Entonces este post te servirá. Mi objetivo es ayudarte a utilizar y entender GNU/linux (sistema operativo libre) y que tu transición entre sistemas operativos sea más rápida.
+El software libre opera con los principios subyacentes de libertad al usuario y solidaridad social (colaboración), creando un proceso de desarrollo de software equitativo para los usuarios finales.</description>
+    </item>
+    
+  </channel>
+</rss>

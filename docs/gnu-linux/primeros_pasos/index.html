@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-133700000-0', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Primeros pasos para cambiarte a GNU/linux (software libre) &middot; Ciencia y Sociedad</title>
+
+		
+		<link rel="stylesheet" href="/blog/css/style.css">
+		<link rel="stylesheet" href="/blog/css/fonts.css">
+		<link rel="stylesheet" href="/blog/css/estilos.css">
+		
+		<link rel="icon" href="/blog/favicon.ico"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Ciencia y Sociedad" />
+
+		<script src="/blog/js/darkmode.js"></script>
+	</head>
+
+    <body>
+        <html>
+	<header	class="header">
+		
+		
+		<nav class="nav">
+			<div class="nav-container">
+				<a href="/blog/">
+					
+						<img src="https://jabpcomplex.github.io/blog/images/grafoWorld.jpg" alt="" >
+						<h2 class="nav-title">Ciencia y Sociedad</h2>
+					
+					</a>
+						
+						
+					<ul>
+    
+    
+        <li>
+            <a href="/blog/contacto/">
+                
+                <span>Contacto</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/blog/gnu-linux/">
+                
+                <span>GNU-Linux</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/blog/posts/">
+                
+                <span>Posts</span>
+                
+            </a>
+        </li>
+    
+</ul>
+						
+			</div>
+		</nav>
+	</header>
+
+</html>
+        <div id="darkModeToggle" onclick="toggleDarkMode()">
+  &#9680; 
+</div>
+
+        
+
+<main>
+	
+
+
+        <div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Julio Alberto Bautista
+        <br>
+        <span>on&nbsp;</span><time datetime="2021-06-01 00:32:07 -0500 CDT">June 1, 2021</time>
+</div>
+
+		<h1 class="post-title">Primeros pasos para cambiarte a GNU/linux (software libre)</h1>
+<div class="post-line"></div>
+
+		
+
+		<p>Si estas harto de qué se trabe y ralentice tu computadora o no te alcanza para comprar una máquina más potente o simplemente quieres dejar atrás windows. Entonces este post te servirá. Mi objetivo es ayudarte a utilizar y entender  GNU/linux (sistema operativo libre) y que tu transición entre sistemas operativos sea más rápida.</p>
+<p>El software libre opera con los principios subyacentes de libertad al usuario y solidaridad social (colaboración), creando un proceso de desarrollo de software equitativo para los usuarios finales.  El software de código privativo es un tipo de software privatizado que atenta contra alguna de <strong>las 4 libertades esenciales del usuario</strong>. El software libre comenzó luego de que las empresas desidieran que nadie que no fuera ellos podría utilizar su sistema operativo que por ese entonces eran unos cuantos. En ese momento algunos programadores que trabajaban en dichas empresas no estaban de acuerdo con esta nueva filosofía de trabajo, este fue el caso de Richard Stallman que en 1984 desidió crear su propio sistema operativo no  (<em>GNU</em>) y poder compartirlo con su comunidad bajo cuatro axiomas que todo software libre debe cumplir, las cuales son:</p>
+<p> </p>
+<ul>
+<li><strong>Libertad 0</strong>: La libertad de ejecutar el programa como se desee, con cualquier propósito</li>
+</ul>
+<p> </p>
+<ul>
+<li><strong>Libertad 1</strong>: a libertad de estudiar cómo funciona el programa, y cambiarlo para que haga lo que se desee. El acceso al código fuente es una condición necesaria para ello.</li>
+</ul>
+<p> </p>
+<ul>
+<li><strong>Libertad 2</strong>: La libertad de redistribuir copias para ayudar a otros.</li>
+</ul>
+<p> </p>
+<ul>
+<li><strong>Libertad 3</strong>: La libertad de distribuir copias de sus versiones modificadas a terceros.</li>
+</ul>
+<p> </p>
+<p>Richard Stallman es un tipo que cree en la solidaridad de la cominidad de programadores y  la libertad del usuario final. Pero la tarea de crear un sistema operativo desde cero es una labor por lo menos muy dificil para una sola persona. De a poco fue trabajando con diferentes colegas hasta que en 1991 lograron reunir la mayoria de elementos para tener un sistema operativo completo. Faltaba una pieza importante: el kernel. Por otro lado en 1992 Linus Torvals libero su kernel llamado: Linux. Y asi fue como surgió el sistema operativo GNU/Linux.</p>
+<p>GNU/Linux es un sistema operativo de software libre, aunque nadie lo utiliza como tal, sino que recurren a las distribuciones (distros) pues con ellas, se vuelve mucho más sencillo de utilizar y cada distro (ubuntu, kubuntu, debian, fedora, etc) tiene su toque personal. Cabe resaltar que no todos las distros se pueden llamar de softaware libre pues las han editado a libertad que algunos de sus componentes son de software privado o no son de código abierto. Lo cual priva de su libertad al usuario.</p>
+<p>Lo primero que necesitas saber es que significan algunos términos que se utilizan en el mundo de software libre. Desde mi experiencia, teniendo claro que significan estos términos vas a comprender mejor tu máquina (Hardware) y la distribución que has instalado (software).</p>
+<h2 id="términos-importantes-que-debemos-conocer">Términos importantes que debemos conocer</h2>
+<p>Se conoce como <strong>sistema informático</strong> al conjunto de ordenadores personales (uno o varios), los programas que contiene y las herramientas que los envuelven (impresora, teclado, altavoces, mouse, cables, etc) junto con la persona que lo maneja (usuario).</p>
+<p>El <strong>hardware</strong>,​ se refiere a las partes físicas, tangibles, de un sistema informático, sus componentes eléctricos, electrónicos, electromecánicos</p>
+<p>Se conoce como <strong>software</strong> o​ soporte lógico al conjunto de los componentes lógicos necesarios que hace posible la realización de tareas específicas.</p>
+<p>Un <strong>sistema operativo</strong> es el conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software.</p>
+<p> </p>
+<p><img src="https://i.pinimg.com/originals/42/e3/cb/42e3cba3e4f6765b15ddc31c4394a3b7.png" alt="Imagen no disponible o eliminada"></p>
+<h2 id="qué-es-el-kernel-y-para-qué-sirve">¿Qué es el Kernel y para qué sirve?</h2>
+<p>El Kernel Linux es el núcleo del sistema operativo. Esta es la parte de software más importante de cualquier sistema operativo. Windows tiene su propio núcleo privado, Apple tiene el suyo (basado en Unix, por cierto), y Linux es el Kernel que utilizan todas las distribuciones. Y su principal función es encargarse de controlar el hardware del ordenador. Para conocer más a detalle sobre el kernel de linux visita el siguiente enlace:</p>
+<p><a href="https://www.softzone.es/programas/linux/kernel-nucleo-linux/">https://www.softzone.es/programas/linux/kernel-nucleo-linux/</a></p>
+<p>En el enlace anterior puedes conocer</p>
+<ul>
+<li>
+<p>Qué versiones existen</p>
+</li>
+<li>
+<p>Qué versión de linux elegir para tu máquina</p>
+</li>
+<li>
+<p>Cómo saber la versión de nuestro Kernel</p>
+</li>
+<li>
+<p>Y cómo actualizar el Kernel.</p>
+</li>
+</ul>
+<h2 id="personaliza-linux-con-conky">Personaliza Linux con Conky</h2>
+<!-- raw HTML omitted -->
+<p>Conky es monitor del sistema disponible en GNU/Linux. Conky es un software que muestra información relevante sobre nuestra computadora, como por ejemplo la temperatura de nuestros procesadores, la intensidad de la señal Wi-Fi, el uso de la RAM, estado del CPU, memoria disponible,  bandejas de correo, y muchas otras características más.</p>
+<p> </p>
+<p><img src="https://i0.wp.com/nksistemas.com/wp-content/uploads/2015/11/conky1.jpg?w=700&amp;ssl=1" alt="Imagen no disponible o eliminada"></p>
+<p> </p>
+<p>Contrario a los monitores del sistema que usan widgets que consumen mucha memoria RAM, Conky consume relativamente menos recursos del sistema por la naturaleza de su creación, basado en el <a href="https://es.wikipedia.org/wiki/Sistema_de_ventanas_X">sistema de ventanas X</a>.</p>
+<p>Conky ha sido nombrado como &ldquo;uno de los mejores programas mejor mantenidos, y definitivamente uno de los más útiles programas en el mundo del código abierto&rdquo; por Linux Magazine.</p>
+<h1 id="instalación">Instalación</h1>
+<p>Para instalar Conky, necesita abrir una terminal y escribir el siguiente comando:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">
+    sudo apt-get install conky-all
+
+</code></pre></div><p>Para iniciar conky solo escribiremos la palabra <code>conky</code> en la consola y se abrirá algo como esto</p>
+<p> </p>
+<p><img src="https://www.fuukemn.biz/photo/lubuntu_37.png" alt="Imagen no disponible o eliminada"></p>
+<p> </p>
+<p>Como habrán podido notar cuando lanzamos conky se ve bastante rústico, para personalizarlo debemos editar el archivo <strong>.conkyrc</strong> que se encuentra en la ruta <em>/home/usuario</em>.</p>
+<p>Para disfrutar de todos los beneficios de conky es necesario instalar los paquetes</p>
+<ul>
+<li>
+<p><strong>curl</strong> que nos facilita la transferencia de ficheros utilizando los protocolos HTTP,HTTPS y FTP, entre otros.</p>
+</li>
+<li>
+<p><strong>lm-sensors</strong> da información sobre la temperatura y el estado de la CPU, tanto ventiladores o el voltaje.</p>
+</li>
+<li>
+<p><strong>hddtemp</strong> nos mostrará la temperatura de los discos.</p>
+</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">
+    sudo apt-get install curl lm-sensors hddtemp
+
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">
+    CONTINUARÁ
+
+</code></pre></div><h1 id="introducción-al-software-libre-y-la-liberación-del-ciberespacio">Introducción al Software Libre y la Liberación del Ciberespacio</h1>
+<h2 id="richard-stallman-creador-de-gnu">Richard Stallman creador de GNU</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/Ag1AKIl_2GM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/blog/posts/primer-post/" class="left arrow">&#8592;</a>
+		<a href="/blog/gnu-linux/porq_gnulinux/" class="right arrow">&#8594;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        <footer>
+    
+    <span>
+    
+      
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media icons animation</title>
+     
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="#ZgotmplZ/estilos.css">
+  </head>
+
+<div class="icons">
+     <a href="https:\\www.instagram.com\scientia_complexus" class="icon icon--instagram">
+      <i class="ri-instagram-line"></i>
+    </a>
+    <a href="https:\\www.youtube.com\channel\UCtV7m_vjP1Vk6jY42OK_qcw\"  class="icon icon--youtube">
+      <i class="ri-youtube-line"></i>
+    </a>
+    <a href="https://twitter.com/Jul10ABP" class="icon icon--twitter" >
+      <i class="ri-twitter-line"></i>
+    </a>
+    <a href="https:\\www.linkedin.com\in\julio-alberto-bautista-9317b2231\" class="icon icon--linkedin">
+      <i class="ri-linkedin-line"></i>
+    </a>
+    <a href="https:\\www.github.com\jabpcomplex"  class="icon icon--github">
+      <i class="ri-github-line"></i>
+    </a>
+  </div> 
+<br>  <br> 
+
+
+    &copy; <time datetime="2023-02-24 01:48:47.808708318 -0600 CST m=&#43;1.535014984">2023</time> Sitio creado por Julio Alberto Bautista. 
+    </span>
+
+</footer>
+
+    </body>
+</html>
