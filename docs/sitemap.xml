@@ -1,48 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://jabpcomplex.github.io/blog/</loc>
-    <lastmod>2022-06-12T00:32:07-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-05-08T23:19:52-06:00</lastmod>
+  </url><url>
     <loc>https://jabpcomplex.github.io/blog/gnu-linux/</loc>
-    <lastmod>2022-06-12T00:32:07-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-05-08T23:19:52-06:00</lastmod>
+  </url><url>
+    <loc>https://jabpcomplex.github.io/blog/gnu-linux/asteriscos_terminal/</loc>
+    <lastmod>2024-05-08T23:19:52-06:00</lastmod>
+  </url><url>
     <loc>https://jabpcomplex.github.io/blog/gnu-linux/porq_gnulinux/</loc>
     <lastmod>2022-06-12T00:32:07-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jabpcomplex.github.io/blog/gnu-linux/primeros_pasos/</loc>
     <lastmod>2021-06-01T00:32:07-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jabpcomplex.github.io/blog/posts/</loc>
-    <lastmod>2021-02-01T00:32:07-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jabpcomplex.github.io/blog/posts/primer-post/</loc>
     <lastmod>2021-02-01T00:32:07-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://jabpcomplex.github.io/blog/posts/</loc>
+    <lastmod>2021-02-01T00:32:07-05:00</lastmod>
+  </url><url>
     <loc>https://jabpcomplex.github.io/blog/contacto/</loc>
     <lastmod>2021-01-01T00:18:41-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jabpcomplex.github.io/blog/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jabpcomplex.github.io/blog/tags/</loc>
   </url>
-  
 </urlset>

@@ -1,5 +1,5 @@
 ---
-title: "¿Por qué deberías usar GNU/Linux?"
+title: "¿Por qué deberías usar GNU/Linux? (Pregunta seria)"
 date: 2022-06-12T00:32:07-05:00
 draft: false #true borrador
 ---

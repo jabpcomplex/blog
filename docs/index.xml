@@ -6,9 +6,19 @@
     <description>Recent content on Ciencia y Sociedad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 12 Jun 2022 00:32:07 -0500</lastBuildDate><atom:link href="https://jabpcomplex.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 May 2024 23:19:52 -0600</lastBuildDate><atom:link href="https://jabpcomplex.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>¿Por qué deberías usar GNU/Linux?</title>
+      <title>Mostrar asteriscos al introducir una contraseña en la terminal de GNU/Linux</title>
+      <link>https://jabpcomplex.github.io/blog/gnu-linux/asteriscos_terminal/</link>
+      <pubDate>Wed, 08 May 2024 23:19:52 -0600</pubDate>
+      
+      <guid>https://jabpcomplex.github.io/blog/gnu-linux/asteriscos_terminal/</guid>
+      <description>Bienvenido usuario de Linux o sin dejar de lado la filosofia del codigo abierto, deberiamos llamarlo GNU/Linux. En esta nueva oportunidad te voy a enseñar un pequeño comando para que cuando escribas tu contraseña en la terminal se muestren asteriscos de acuerdo al tamaño de tu contraseña que es una propiedad que esta descactivada por defecto en la mayoria de los sistemas GNU/Linux.
+Este pequeño tutorial esta realizado para debian 12 sin embargo funciona para la mayoria de sistemas operativos con el kernel Linux.</description>
+    </item>
+    
+    <item>
+      <title>¿Por qué deberías usar GNU/Linux? (Pregunta seria)</title>
       <link>https://jabpcomplex.github.io/blog/gnu-linux/porq_gnulinux/</link>
       <pubDate>Sun, 12 Jun 2022 00:32:07 -0500</pubDate>
       
@@ -34,7 +44,7 @@ El software libre opera con los principios subyacentes de libertad al usuario y 
       
       <guid>https://jabpcomplex.github.io/blog/posts/primer-post/</guid>
       <description>Hoy mas que nunca,cuando tantos y tan complejos problemas asaltan a la especie humana, es necesaria la presencia de individuos con un alto coeficiente intelectual y un amplísimo campo de intereses. — Carl Sagan
- Para los lectores familiarizados con la teoría de los sistemas complejos, el título de este artículo puede parecerles familiar pero no crea que es casualidad. Las líneas siguientes son para dar a conocer lo novedoso que ha resultado en los últimos años afrontar ciertos fenómenos con una visión sistémica.</description>
+Para los lectores familiarizados con la teoría de los sistemas complejos, el título de este artículo puede parecerles familiar pero no crea que es casualidad. Las líneas siguientes son para dar a conocer lo novedoso que ha resultado en los últimos años afrontar ciertos fenómenos con una visión sistémica.</description>
     </item>
     
     <item>

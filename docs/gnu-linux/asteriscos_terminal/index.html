@@ -17,7 +17,7 @@ if (!doNotTrack) {
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Contacto &middot; Ciencia y Sociedad</title>
+		<title>Mostrar asteriscos al introducir una contraseña en la terminal de GNU/Linux &middot; Ciencia y Sociedad</title>
 
 		
 		<link rel="stylesheet" href="/blog/css/style.css">
@@ -99,24 +99,42 @@ if (!doNotTrack) {
     <span>Written by</span>
         Julio Alberto Bautista
         <br>
-        <span>on&nbsp;</span><time datetime="2021-01-01 00:18:41 -0500 -0500">January 1, 2021</time>
+        <span>on&nbsp;</span><time datetime="2024-05-08 23:19:52 -0600 CST">May 8, 2024</time>
 </div>
 
-		<h1 class="post-title">Contacto</h1>
+		<h1 class="post-title">Mostrar asteriscos al introducir una contraseña en la terminal de GNU/Linux</h1>
 <div class="post-line"></div>
 
 		
 
-		<p>Bienvenido. Te encuentras en mi Blog personal.</p>
-<p>El propósito de este Blog es presentar la influencia recíproca entre el desarrollo de la ciencia y los otros aspectos de la evolución social del hombre (cultura, arte, deporte, tecnología, etc).</p>
-<p>Cualquier comentario acerca de lo que se expresa en este blog será bienvenido al correo <a href="mailto:julioacustico10@gmail.com">julioacustico10@gmail.com</a></p>
-
+		<p>Bienvenido usuario de Linux o sin dejar de lado la filosofia del codigo abierto, deberiamos llamarlo GNU/Linux. En esta nueva oportunidad te voy a enseñar un pequeño comando para que cuando escribas tu contraseña en la terminal se muestren asteriscos de acuerdo al tamaño de tu contraseña que es una propiedad que esta descactivada por defecto en la mayoria de los sistemas GNU/Linux.</p>
+<p>Este pequeño tutorial esta realizado para debian 12 sin embargo funciona para la mayoria de sistemas operativos con el kernel Linux.</p>
+<p>Lo primero que debes hacer es abrir una nueva terminal y escribir el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    jabp@complex:~$ sudo nano /etc/sudoers
+</span></span></code></pre></div><p> </p>
+<p>sudo es un comando para uniciar los privilegios de super usuario, nano es el editor de texto y /etc/sudoers es la ruta de un archivo que contiene configuraciones determinadas para los usuarios registrados en el sistema.</p>
+<p> 
+<img src="./static/images/terminal_1.png" alt="Imagen no disponible o eliminada">
+ </p>
+<p>Lo cual abrirà la sigueinte ventana</p>
+<p> 
+<img src="./static/images/terminal_2.png" alt="Imagen no disponible o eliminada">
+ </p>
+<p>Modificamos la linea donde se encuentra el siguiente texto: Defaults env_reset con el siguiente texto , pwfeedback. Como se muestra en la imagen.</p>
+<p> 
+<img src="./static/images/terminal_3.png" alt="Imagen no disponible o eliminada">
+ </p>
+<p>¡Y listo, eso seria todo! Ahora cada que escribas la contraseña de tu super-usuario se mostrarán los asteriscos correspondientes. En lo personal me parece más vistoso, además de que puedo ver cuando me equivoco al escribir mi contraseña en el sentido de que veo si escribí más o menos digitos de lo que en realidad son. Espero te sirva este comando.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    jabp@complex:~$ echo CONTINUARÁ
+</span></span></code></pre></div>
 
 		
 	</div>
 
 	<div class="pagination">
-		<a href="/blog/posts/primer-post/" class="right arrow">&#8594;</a>
+		<a href="/blog/gnu-linux/porq_gnulinux/" class="left arrow">&#8592;</a>
 
 		<a href="#" class="top">Top</a>
 	</div>
@@ -160,7 +178,7 @@ if (!doNotTrack) {
 <br>  <br> 
 
 
-    &copy; <time datetime="2024-05-08 23:45:08.612204577 -0600 CST m=&#43;2.239148607">2024</time> Sitio creado por Julio Alberto Bautista. 
+    &copy; <time datetime="2024-05-08 23:45:08.654388397 -0600 CST m=&#43;2.281332415">2024</time> Sitio creado por Julio Alberto Bautista. 
     </span>
 
 </footer>
