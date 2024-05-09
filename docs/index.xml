@@ -13,8 +13,8 @@
       <pubDate>Wed, 08 May 2024 23:19:52 -0600</pubDate>
       
       <guid>https://jabpcomplex.github.io/blog/gnu-linux/asteriscos_terminal/</guid>
-      <description>Bienvenido usuario de Linux o sin dejar de lado la filosofia del codigo abierto, deberiamos llamarlo GNU/Linux. En esta nueva oportunidad te voy a enseñar un pequeño comando para que cuando escribas tu contraseña en la terminal se muestren asteriscos de acuerdo al tamaño de tu contraseña que es una propiedad que esta descactivada por defecto en la mayoria de los sistemas GNU/Linux.
-Este pequeño tutorial esta realizado para debian 12 sin embargo funciona para la mayoria de sistemas operativos con el kernel Linux.</description>
+      <description>Bienvenido usuario de Linux o sin dejar de lado la filosofia del codigo abierto, usuario de GNU/Linux. En esta nueva oportunidad te mostraré un comando para que cuando escribas tu contraseña en la terminal se muestren asteriscos de acuerdo al tamaño de tu contraseña que es una propiedad que esta descactivada por defecto en la mayoria de los sistemas GNU/Linux.
+Este pequeño tutorial esta realizado para Debian 12 Bookworm sin embargo funciona para la mayoria de sistemas operativos con el kernel Linux.</description>
     </item>
     
     <item>
