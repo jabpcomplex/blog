@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ciencia y Sociedad</title>
+    <link>https://jabpcomplex.github.io/blog/</link>
+    <description>Recent content on Ciencia y Sociedad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 12 Jun 2022 00:32:07 -0500</lastBuildDate><atom:link href="https://jabpcomplex.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Por qué deberías usar GNU/Linux?</title>
+      <link>https://jabpcomplex.github.io/blog/gnu-linux/porq_gnulinux/</link>
+      <pubDate>Sun, 12 Jun 2022 00:32:07 -0500</pubDate>
+      
+      <guid>https://jabpcomplex.github.io/blog/gnu-linux/porq_gnulinux/</guid>
+      <description>Después de haber leído el post anterior &amp;ldquo;Primeros pasos para cambiarte a GNU/linux (software libre)&amp;rdquo; espero que haya surgido en ti una chispa de curiosidad e investigues más acerca de lo que significa el software libre y cuales son las diferencias principales entre software libre y software privativo.
+Hace unos días estuve en contacto con un equipo de computo con el sistema operativo macOS BigSur o apple para los cuates(el de la manzanita para los igualados), esto provocó en mí que reafirmará mis ideas sobre por qué deberíamos usar alguna distro de GNU/Linux en lugar de software privativo como Windows o MacOs.</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos para cambiarte a GNU/linux (software libre)</title>
+      <link>https://jabpcomplex.github.io/blog/gnu-linux/primeros_pasos/</link>
+      <pubDate>Tue, 01 Jun 2021 00:32:07 -0500</pubDate>
+      
+      <guid>https://jabpcomplex.github.io/blog/gnu-linux/primeros_pasos/</guid>
+      <description>Si estas harto de qué se trabe y ralentice tu computadora o no te alcanza para comprar una máquina más potente o simplemente quieres dejar atrás windows. Entonces este post te servirá. Mi objetivo es ayudarte a utilizar y entender GNU/linux (sistema operativo libre) y que tu transición entre sistemas operativos sea más rápida.
+El software libre opera con los principios subyacentes de libertad al usuario y solidaridad social (colaboración), creando un proceso de desarrollo de software equitativo para los usuarios finales.</description>
+    </item>
+    
+    <item>
+      <title>¿Puede la comida de un hombre en Wuhan (China) causar una pandemia global?</title>
+      <link>https://jabpcomplex.github.io/blog/posts/primer-post/</link>
+      <pubDate>Mon, 01 Feb 2021 00:32:07 -0500</pubDate>
+      
+      <guid>https://jabpcomplex.github.io/blog/posts/primer-post/</guid>
+      <description>Hoy mas que nunca,cuando tantos y tan complejos problemas asaltan a la especie humana, es necesaria la presencia de individuos con un alto coeficiente intelectual y un amplísimo campo de intereses. — Carl Sagan
+Para los lectores familiarizados con la teoría de los sistemas complejos, el título de este artículo puede parecerles familiar pero no crea que es casualidad. Las líneas siguientes son para dar a conocer lo novedoso que ha resultado en los últimos años afrontar ciertos fenómenos con una visión sistémica.</description>
+    </item>
+    
+    <item>
+      <title>Contacto</title>
+      <link>https://jabpcomplex.github.io/blog/contacto/</link>
+      <pubDate>Fri, 01 Jan 2021 00:18:41 -0500</pubDate>
+      
+      <guid>https://jabpcomplex.github.io/blog/contacto/</guid>
+      <description>Bienvenido. Te encuentras en mi Blog personal.
+El propósito de este Blog es presentar la influencia recíproca entre el desarrollo de la ciencia y los otros aspectos de la evolución social del hombre (cultura, arte, deporte, tecnología, etc).
+Cualquier comentario acerca de lo que se expresa en este blog será bienvenido al correo julioacustico10@gmail.com</description>
+    </item>
+    
+  </channel>
+</rss>
